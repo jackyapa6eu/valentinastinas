@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.3",
-    "nuxt": "^3.8.2",
-    "vue": "^3.3.8",
-    "vue-router": "^4.2.5",
     "husky": "^8.0.3",
-    "prettier": "^3.2.4"
+    "nuxt": "^3.8.2",
+    "prettier": "^3.2.4",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
   },
   "husky": {
     "hooks": {
@@ -22,7 +22,10 @@
     }
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
     "@nuxt/bridge": "^3.1.0",
-    "@nuxt/types": "^2.17.3"
+    "@nuxt/types": "^2.17.3",
+    "ant-design-vue": "^4.1.2",
+    "firebase": "^10.10.0"
   }
 }
