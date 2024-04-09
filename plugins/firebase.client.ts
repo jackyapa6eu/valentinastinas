@@ -3,8 +3,8 @@ import { initializeApp } from "firebase/app";
 
 export default defineNuxtPlugin((nuxtApp) => {
   const firebaseConfig = {
-    apiKey: "AIzaSyBoDpmLvl8k2YYJ3kV10oN4ncCYhxM4slQ",
-    authDomain: "valentinastinas.firebaseapp.com",
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
     projectId: "valentinastinas",
     messagingSenderId: "878844074948",
     databaseURL:
